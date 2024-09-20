@@ -25,7 +25,7 @@
         android:textColor="@color/black"
         />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_gerar_senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:backgroundTint="@color/orange"
+        android:background="@drawable/button"
         android:padding="15dp"
         android:layout_margin="20dp"
         />
