@@ -1,6 +1,7 @@
 package com.pitercapistrano.geradordesenha
 
 // Importações necessárias para o funcionamento do código
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge // Habilita o suporte a telas de borda a borda
 import androidx.appcompat.app.AppCompatActivity // Base para atividades que utilizam a action bar
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         "N","O","P","Q","R","S","T","U","V","W","X","Y","Z")
 
     // Função que é chamada ao iniciar a Activity
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
